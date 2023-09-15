@@ -1,0 +1,68 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#bar-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 10px;
+    height: 200px;
+}
+
+.bar {
+    width: 20px;
+    background-color: lightsteelblue;
+    transition: width 0.4s;
+}
+
+.values {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: medium;
+}
+
+.values > span {
+    width: 20px;
+    transition: width 0.4s;
+}
+
+.header {
+    font-size: 40px;
+    color: yellow;
+    background-color: green;
+    padding: 5px;
+}
+
+.header-buttons {
+    background-color: lightgreen;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+
+.footer {
+    font-size: 20px;
+    padding: 5px;
+    height: 100px;
+    position: fixed;
+    padding-left: 0;
+    bottom: 20px;
+    width: 100%;
+}
+
+.footer-actions {
+    background-color: lightgreen;
+    height: 75px;
+    padding: 5px;
+}
+
+.footer-heading {
+    color: yellow;
+    background-color: green;
+    padding: 5px;
+    bottom: 10px;
+}
